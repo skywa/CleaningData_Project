@@ -2,17 +2,16 @@ Codebook for Coursera (Johns Hopkins) Getting and Cleaning Data Course Project
 =====================
 For a more thorough description of the project, please see **Feature Selection** below, which contains the original feature information for the project.
 
-#Description of project:
-================
+#Description of project
 Data from a study using the accelerometer and gyroscope of a smart phone to determine human activity was obtained and cleaned to produce a tidy dataset for further analysis. For details of the study itself, see below.
 
 The data and label files were read in and combined into a data frame. This was subset to contain the average value for each variable for each activity and subject. The choice was made to make it a "long" dataset (where there are columns for subject, activity, variable, and value) instead of "wide" (where each variable would be it's own column and the rows would contain each subject for all activities) so that ordering and subsetting could be done with activity factors.
 
-#Sampling information:
+Sampling information:
 ====================
 The study was conducted with 30 subject participants wearing a smartphone. 21 of them were used to record training data and 9 of them were used to record the test data. Six activities were recorded (walking, walking up stairs, walking down stairs, sitting, standing, and laying). The subject, activity, and a 561-feature vector with time and frequency variables were recorded along with the triaxial acceleration and triaxial angular velocity.
 
-#Technical information about the files:
+Technical information about the files:
 ===================
 The files used are listed (also described in README.md)
 - **X_test.txt**: 2947 observations of 561 variables
@@ -63,7 +62,7 @@ The variables in the subset include only those that ended in mean() or std(). Th
 - Freq_Mean_Body_Gyro_Jerk_Magnitude
 - Freq_Std_Body_Gyro_Jerk_Magnitude
 
-#Process description of code:
+Process description of code:
 =========================
 The code for this project is contained in **run_analysis.R**. This provides a description of the code, which is also annotated within the file.
 
