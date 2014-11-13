@@ -20,7 +20,7 @@ The data and label files were read in and combined into a data frame. This was s
 - **X_test.txt**: variable data (e.g. acceleration for x, y, z directions)
 - **X_train.txt**: variable data (e.g. acceleration for x, y, z directions)
 - **y_test.txt**: activity labels for variable data
-- **x_test.txt**: activity labels for variable data
+- **y_test.txt**: activity labels for variable data
 - **subject_test.txt**: subject (participant) label for variable data
 - **subject_train.txt**: subject (participant) labels for variable data
 - **activity_labels.txt**: activity labels (e.g. Walking, Sitting)
