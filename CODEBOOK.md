@@ -2,7 +2,8 @@ Codebook for Coursera (Johns Hopkins) Getting and Cleaning Data Course Project
 =====================
 For a more thorough description of the project, please see **Feature Selection** below, which contains the original feature information for the project.
 
-#Description of project
+Description of project:
+===================
 Data from a study using the accelerometer and gyroscope of a smart phone to determine human activity was obtained and cleaned to produce a tidy dataset for further analysis. For details of the study itself, see below.
 
 The data and label files were read in and combined into a data frame. This was subset to contain the average value for each variable for each activity and subject. The choice was made to make it a "long" dataset (where there are columns for subject, activity, variable, and value) instead of "wide" (where each variable would be it's own column and the rows would contain each subject for all activities) so that ordering and subsetting could be done with activity factors.
