@@ -1,6 +1,6 @@
 Codebook for Coursera (Johns Hopkins) Getting and Cleaning Data Course Project
 =====================
-For a more thorough description of the project, please see **Feature Selection** below, which contains the original feature information for the project.
+For a more thorough description of the study that produced this data, please see **Feature Selection** below, which contains the original feature information for the project.
 
 Description of project:
 ===================
