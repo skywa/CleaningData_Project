@@ -6,6 +6,7 @@ The intent of this project is to read and clean a dataset from the Human Activit
 The data and label files were read in and combined into a data frame. This was subset to contain the average value for each variable for each activity and subject. The choice was made to make it a "long" dataset (where there are columns for subject, activity, variable, and value) instead of "wide" (where each variable would be it's own column and the rows would contain each subject for all activities) so that ordering and subsetting could be done with activity factors.
 
 ***To read the final tidy dataset, use read.table("Means_by_Activity_Subject.txt") and assign it to a desired variable.***
+***To obtain all data and values, use source("run_analysis.R") with all files in the same directory.***
 
 ##The following files were used in this project:
 
@@ -13,7 +14,7 @@ The data and label files were read in and combined into a data frame. This was s
 - **CodeBook.md**: description of the process and variables
 
 ##CODE:
-- **run_Analysis.R**: Code used to read in data, clean it, and convert it to a tidy data set
+- **run_analysis.R**: Code used to read in data, clean it, and convert it to a tidy data set
 
 ##INPUTS:
 - **X_test.txt**: variable data (e.g. acceleration for x, y, z directions)
