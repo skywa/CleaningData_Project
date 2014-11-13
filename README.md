@@ -1,7 +1,7 @@
 Coursera (Johns Hopkins) Getting and Cleaning Data Course Project
 ====================
 
-The intent of this project is to read and clean a dataset from the Human Activity Recognition Using Smartphones Dataset as described below
+The intent of this project is to read and clean a dataset from the Human Activity Recognition Using Smartphones Dataset as described below.
 
 The data and label files were read in and combined into a data frame. This was subset to contain the average value for each variable for each activity and subject. The choice was made to make it a "long" dataset (where there are columns for subject, activity, variable, and value) instead of "wide" (where each variable would be it's own column and the rows would contain each subject for all activities) so that ordering and subsetting could be done with activity factors.
 
